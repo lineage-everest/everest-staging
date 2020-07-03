@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Removals -->
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_external_skia" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_hardware_libhardware_legacy" />
+ 
+ 
+  <!-- build -->
+  <project path="build" name="lineage-everest/build" groups="pdk" remote="github" revision="cm-11.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>  
+
+  <!-- Device -->
+  <project name="lineage-everest/android_device_moto_everest" path="device/moto/everest" remote="github" revision="cm-11.0" />
+  <project name="lineage-everest/android_device_moto_wingray" path="device/moto/wingray" remote="github" revision="cm-11.0" />
+
+  <!-- Kernel -->
+  <project name="lineage-everest/android_kernel_moto_xoom" path="kernel/moto/xoom" remote="github" revision="cm-11.0" />
+
+  <!-- Vendor -->
+  <project name="lineage-everest/android_vendor_moto_everest" path="vendor/moto/everest" remote="github" revision="android-4.4" />
+  <project name="lineage-everest/android_vendor_moto_wingray" path="vendor/moto/wingray" remote="github" revision="android-4.3" />
+  <project name="lineage-everest/android_vendor_nvidia_wingray" path="vendor/nvidia/wingray" remote="github" revision="android-4.3" />
+  <project name="lineage-everest/android_vendor_broadcom_wingray" path="vendor/broadcom/wingray" remote="github" revision="android-4.3" />
+
+  <!-- Extras -->
+  <project name="lineage-everest/external_skia" path="external/skia" remote="github" revision="cm-11.0" />
+  <project name="lineage-everest/frameworks_av" path="frameworks/av" remote="github" revision="cm-11.0" />
+  <project name="lineage-everest/frameworks_base" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <project name="lineage-everest/frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
+  <project name="lineage-everest/hardware_libhardware_legacy" path="hardware/libhardware/legacy" remote="github" revision="cm-11.0" />
+        
+</manifest>
