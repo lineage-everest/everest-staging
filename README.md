@@ -19,7 +19,7 @@
 
 6. To build:
   . build/envsetup.sh
-  lunch cm_everest-userdebug
+  lunch lineage_everest-userdebug
   brunch everest
 ```
 
