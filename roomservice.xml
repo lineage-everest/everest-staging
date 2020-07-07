@@ -45,6 +45,6 @@
   <project name="lineage-everest/frameworks_av" path="frameworks/av" remote="github2" revision="cm-11.0" />
   <project name="lineage-everest/frameworks_base" path="frameworks/base" remote="github2" revision="cm-11.0" />
   <project name="lineage-everest/frameworks_native" path="frameworks/native" remote="github2" revision="cm-11.0" />
-  <project name="lineage-everest/hardware_libhardware_legacy" path="hardware/libhardware/legacy" remote="github2" revision="cm-11.0" />
+  <project name="lineage-everest/hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github2" revision="cm-11.0" />
         
 </manifest>
