@@ -9,7 +9,6 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <remove-project name="LineageOS/android_hardware_libhardware_legacy" />
   
   <!-- Make build slim -->
   <remove-project name="LineageOS/android_packages_apps_Apollo" />
@@ -31,7 +30,7 @@
   <project name="lineage-everest/android_device_moto_wingray" path="device/moto/wingray" remote="github2" revision="cm-11.0" />
 
   <!-- Kernel -->
-  <project name="lineage-everest/android_kernel_moto_xoom" path="kernel/moto/xoom" remote="github2" revision="cm-11.0" />
+  <project name="lineage-everest/android_kernel_moto_xoom" path="kernel/moto/xoom" remote="github2" revision="aosp-4.4" />
 
   <!-- Vendor -->
   <project name="lineage-everest/android_vendor_moto_everest" path="vendor/moto/everest" remote="github2" revision="android-4.4" />
@@ -44,6 +43,5 @@
   <project name="lineage-everest/frameworks_av" path="frameworks/av" remote="github2" revision="cm-11.0" />
   <project name="lineage-everest/frameworks_base" path="frameworks/base" remote="github2" revision="cm-11.0" />
   <project name="lineage-everest/frameworks_native" path="frameworks/native" remote="github2" revision="cm-11.0" />
-  <project name="lineage-everest/hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github2" revision="cm-11.0" />
         
 </manifest>
