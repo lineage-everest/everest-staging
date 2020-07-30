@@ -9,7 +9,6 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   
   <!-- Make build slim -->
   <remove-project name="LineageOS/android_packages_apps_Apollo" />
@@ -21,12 +20,10 @@
   <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
   <remove-project name="LineageOS/android_packages_apps_DeskClock" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <remove-project name="LineageOS/android_packages_apps_Email" />
   <remove-project name="LineageOS/android_packages_apps_Exchange" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
   <remove-project name="LineageOS/android_packages_apps_Mms-caf" />
-  <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
   <remove-project name="LineageOS/android_packages_apps_VideoEditor" />
   <remove-project name="LineageOS/android_packages_apps_VoiceDialer" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
@@ -55,6 +52,5 @@
   <project name="lineage-everest/frameworks_av" path="frameworks/av" remote="github2" revision="cm-11.0" />
   <project name="lineage-everest/frameworks_base" path="frameworks/base" remote="github2" revision="cm-11.0" />
   <project name="lineage-everest/frameworks_native" path="frameworks/native" remote="github2" revision="cm-11.0" />
-  <project name="SlimRomsSecurity/packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github2" revision="kk4.4" />
         
 </manifest>
