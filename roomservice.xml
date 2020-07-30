@@ -30,27 +30,27 @@
  
  
   <!-- build -->
-  <project path="build" name="lineage-everest/build" groups="pdk" remote="github2" revision="cm-11.0" >
+  <project path="build" name="lineage-mz6xx/build" groups="pdk" remote="github2" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
 
   <!-- Device -->
-  <project name="lineage-everest/android_device_moto_everest" path="device/moto/everest" remote="github2" revision="cm-11.0" />
-  <project name="lineage-everest/android_device_moto_wingray" path="device/moto/wingray" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/android_device_moto_everest" path="device/moto/everest" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/android_device_moto_wingray" path="device/moto/wingray" remote="github2" revision="cm-11.0" />
 
   <!-- Kernel -->
-  <project name="lineage-everest/android_kernel_moto_xoom" path="kernel/moto/xoom" remote="github2" revision="aosp-4.4" />
+  <project name="lineage-mz6xx/android_kernel_moto_xoom" path="kernel/moto/xoom" remote="github2" revision="aosp-4.4" />
 
   <!-- Vendor -->
-  <project name="lineage-everest/android_vendor_moto_everest" path="vendor/moto/everest" remote="github2" revision="android-4.4" />
-  <project name="lineage-everest/android_vendor_moto_wingray" path="vendor/moto/wingray" remote="github2" revision="android-4.3" />
-  <project name="lineage-everest/android_vendor_nvidia_wingray" path="vendor/nvidia/wingray" remote="github2" revision="android-4.3" />
-  <project name="lineage-everest/android_vendor_broadcom_wingray" path="vendor/broadcom/wingray" remote="github2" revision="android-4.3" />
+  <project name="lineage-mz6xx/android_vendor_moto_everest" path="vendor/moto/everest" remote="github2" revision="android-4.4" />
+  <project name="lineage-mz6xx/android_vendor_moto_wingray" path="vendor/moto/wingray" remote="github2" revision="android-4.3" />
+  <project name="lineage-mz6xx/android_vendor_nvidia_wingray" path="vendor/nvidia/wingray" remote="github2" revision="android-4.3" />
+  <project name="lineage-mz6xx/android_vendor_broadcom_wingray" path="vendor/broadcom/wingray" remote="github2" revision="android-4.3" />
 
   <!-- Extras -->
-  <project name="lineage-everest/external_skia" path="external/skia" remote="github2" revision="cm-11.0" />
-  <project name="lineage-everest/frameworks_av" path="frameworks/av" remote="github2" revision="cm-11.0" />
-  <project name="lineage-everest/frameworks_base" path="frameworks/base" remote="github2" revision="cm-11.0" />
-  <project name="lineage-everest/frameworks_native" path="frameworks/native" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/external_skia" path="external/skia" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/frameworks_av" path="frameworks/av" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/frameworks_base" path="frameworks/base" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/frameworks_native" path="frameworks/native" remote="github2" revision="cm-11.0" />
         
 </manifest>
