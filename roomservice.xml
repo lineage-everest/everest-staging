@@ -9,6 +9,7 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_native" />
   
   <!-- Make build slim -->
   <remove-project name="LineageOS/android_packages_apps_Apollo" />
@@ -24,6 +25,7 @@
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
   <remove-project name="LineageOS/android_packages_apps_Mms-caf" />
+  <remove-project name="LineageOS/android_packages_apps_Torch" />
   <remove-project name="LineageOS/android_packages_apps_VideoEditor" />
   <remove-project name="LineageOS/android_packages_apps_VoiceDialer" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
